@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<head>
+
+	<title>Temperature Converter</title>	
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js bootstrap.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+
+</head>
+	
+<body>
+
+	<div class = "container text center">	
+	<div class="page-header">
+ 	 	<h1>Temperature Conversion: <small>Fahrenheit to Celsius</small></h1>
+	</div>
+
+	<form>
+		<p>
+		Enter Degrees in F: 
+		<input name="DegF" value="0" maxlength="5" size=5> <!-- shift option 8 degree symbol -->
+		<p>
+		Click this button to calculate the temperature 
+		in degrees C:
+		<input class="btn" name="calc" value="Calculate" type="button" onClick=temp(this.form)>
+		<p>
+		Celsius is: 
+		<input name="DegC" readonly size=5>
+		<input class="btn" type="reset" value="Clear">
+	</form>
+
+<!-- <form role="form">
+  <div class="form-group">
+    <label for="Fahrenheit">Degrees in Fahrenheit</label>
+    <input name="degF" value="0" maxlength="5" size=5>
+  </div>
+  <div class="form-group">
+	<input name="calc" value="Calculate" type=buttononClick=temp(this.form)>
+  </div>
+  <div class="form-group">
+  	<label for="Celsius">Degrees in Celsius></label>
+  	<input name="degC" 
+  </div>
+
+
+</form> -->
+
+
+</body>
