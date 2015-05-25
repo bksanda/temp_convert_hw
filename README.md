@@ -1,3 +1,8 @@
+##WDI COURSE ASSIGNMENT
+##2014-2015
+
+***
+
 #Temperature Converter Lab
 
 In this lab we will be writing javascript to make a temperature conversion utility.
